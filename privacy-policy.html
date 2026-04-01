@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crown Keeper — Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(160deg, #1A1A2E 0%, #16213E 50%, #1A1A2E 100%);
+            color: #E0DCD5;
+            min-height: 100vh;
+            line-height: 1.7;
+        }
+        .container { max-width: 680px; margin: 0 auto; padding: 40px 24px 60px; }
+        .header {
+            text-align: center;
+            padding: 40px 0 32px;
+            border-bottom: 1px solid rgba(212, 168, 87, 0.15);
+            margin-bottom: 36px;
+        }
+        .crown { font-size: 42px; margin-bottom: 12px; }
+        .app-name { font-size: 14px; letter-spacing: 3px; text-transform: uppercase; color: #D4A857; margin-bottom: 16px; }
+        h1 { font-family: Georgia, 'Times New Roman', serif; font-size: clamp(22px, 5vw, 28px); color: #F0EDE8; font-weight: 700; }
+        .date { color: #7A7280; font-size: 13px; margin-top: 8px; }
+        h2 { font-family: Georgia, 'Times New Roman', serif; font-size: clamp(16px, 3.5vw, 18px); color: #D4A857; margin-top: 32px; margin-bottom: 12px; padding-bottom: 6px; border-bottom: 1px solid rgba(212, 168, 87, 0.1); }
+        p { margin-bottom: 14px; color: #B8AFA5; font-size: 15px; }
+        strong { color: #F0EDE8; }
+        ul { margin: 12px 0 16px 20px; color: #B8AFA5; font-size: 15px; }
+        li { margin-bottom: 6px; }
+        li::marker { color: #D4A857; }
+        a { color: #D4A857; text-decoration: none; border-bottom: 1px solid rgba(212, 168, 87, 0.3); transition: border-color 0.2s; }
+        a:hover { border-bottom-color: #D4A857; }
+        .footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid rgba(212, 168, 87, 0.15); text-align: center; color: #7A7280; font-size: 13px; }
+        .suits { color: #D4A857; letter-spacing: 8px; font-size: 12px; margin-top: 8px; }
+        .nav { text-align: center; margin-top: 16px; }
+        .nav a { display: inline-block; padding: 8px 20px; border: 1px solid rgba(212, 168, 87, 0.3); border-radius: 8px; font-size: 13px; }
+        .lang-toggle { text-align: center; margin-bottom: 8px; }
+        .lang-toggle button {
+            background: none; border: 1px solid rgba(212, 168, 87, 0.3); color: #7A7280;
+            padding: 6px 16px; border-radius: 6px; font-size: 13px; cursor: pointer; margin: 0 4px; transition: all 0.2s;
+        }
+        .lang-toggle button.active { color: #D4A857; border-color: #D4A857; background: rgba(212, 168, 87, 0.08); }
+        .lang { display: none; }
+        .lang.active { display: block; }
+        @media (max-width: 480px) {
+            .container { padding: 24px 16px 40px; }
+            .header { padding: 28px 0 24px; margin-bottom: 28px; }
+            .crown { font-size: 34px; }
+            h2 { margin-top: 24px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="crown">&#x1F451;</div>
+            <div class="app-name">Crown Keeper</div>
+            <div class="lang-toggle">
+                <button class="active" onclick="switchLang('fr')">FR</button>
+                <button onclick="switchLang('en')">EN</button>
+            </div>
+            <h1 class="lang fr active">Politique de confidentialité</h1>
+            <h1 class="lang en">Privacy Policy</h1>
+            <p class="date lang fr active">Dernière mise à jour : 31 mars 2026</p>
+            <p class="date lang en">Last updated: March 31, 2026</p>
+        </div>
+
+        <!-- FR -->
+        <div class="lang fr active">
+            <h2>Introduction</h2>
+            <p>Crown Keeper ("l'Application") est éditée par OrionHQ. Nous prenons votre vie privée très au sérieux. Cette politique explique quelles données nous collectons et comment nous les utilisons.</p>
+            <h2>Données collectées</h2>
+            <p><strong>Aucune donnée personnelle n'est collectée.</strong></p>
+            <p>L'Application fonctionne entièrement en local sur votre appareil. Les données de jeu (noms des joueurs, scores, historique des parties) sont stockées uniquement sur votre iPhone et ne sont jamais transmises à un serveur externe.</p>
+            <h2>Données stockées localement</h2>
+            <ul>
+                <li>Noms et scores des joueurs</li>
+                <li>Historique des parties</li>
+                <li>Préférences de thème</li>
+                <li>État de l'achat intégré (via Apple StoreKit)</li>
+            </ul>
+            <p>Ces données restent sur votre appareil et ne sont pas accessibles par nous.</p>
+            <h2>Achats intégrés</h2>
+            <p>L'Application propose un achat intégré ("La Couronne Royale") géré entièrement par Apple via StoreKit. Nous n'avons pas accès à vos informations de paiement.</p>
+            <h2>Suivi et publicité</h2>
+            <p>L'Application ne contient aucun outil de suivi, d'analyse, ni de publicité. Nous n'utilisons pas le framework App Tracking Transparency car aucun suivi n'est effectué.</p>
+            <h2>Services tiers</h2>
+            <p>L'Application n'intègre aucun SDK tiers (pas de Firebase, Analytics, ni réseau publicitaire).</p>
+            <h2>Données des enfants</h2>
+            <p>L'Application ne collecte aucune donnée et peut être utilisée par des personnes de tout âge.</p>
+            <h2>Modifications</h2>
+            <p>Nous nous réservons le droit de modifier cette politique. Toute modification sera publiée sur cette page avec une date de mise à jour.</p>
+            <h2>Contact</h2>
+            <p>Pour toute question : <a href="mailto:contact@orionhq.fr">contact@orionhq.fr</a></p>
+            <div class="nav"><a href="terms-of-use.html">Conditions d'utilisation</a></div>
+        </div>
+
+        <!-- EN -->
+        <div class="lang en">
+            <h2>Introduction</h2>
+            <p>Crown Keeper ("the App") is published by OrionHQ. We take your privacy very seriously. This policy explains what data we collect and how we use it.</p>
+            <h2>Data Collected</h2>
+            <p><strong>No personal data is collected.</strong></p>
+            <p>The App works entirely locally on your device. Game data (player names, scores, game history) is stored only on your iPhone and is never sent to any external server.</p>
+            <h2>Locally Stored Data</h2>
+            <ul>
+                <li>Player names and scores</li>
+                <li>Game history</li>
+                <li>Theme preferences</li>
+                <li>In-app purchase status (via Apple StoreKit)</li>
+            </ul>
+            <p>This data stays on your device and is not accessible by us.</p>
+            <h2>In-App Purchases</h2>
+            <p>The App offers an in-app purchase ("The Royal Crown") managed entirely by Apple via StoreKit. We do not have access to your payment information.</p>
+            <h2>Tracking and Advertising</h2>
+            <p>The App contains no tracking, analytics, or advertising tools. We do not use the App Tracking Transparency framework as no tracking is performed.</p>
+            <h2>Third-Party Services</h2>
+            <p>The App does not integrate any third-party SDKs (no Firebase, Analytics, or ad networks).</p>
+            <h2>Children's Data</h2>
+            <p>The App does not collect any data and can be used by people of all ages.</p>
+            <h2>Changes</h2>
+            <p>We reserve the right to modify this policy. Any changes will be posted on this page with an updated date.</p>
+            <h2>Contact</h2>
+            <p>For any questions: <a href="mailto:contact@orionhq.fr">contact@orionhq.fr</a></p>
+            <div class="nav"><a href="terms-of-use.html">Terms of Use</a></div>
+        </div>
+
+        <div class="footer">
+            <p>Crown Keeper — Cinq Rois</p>
+            <div class="suits">&#9829; &#9827; &#9733; &#9830; &#9824;</div>
+        </div>
+    </div>
+    <script>
+        function switchLang(lang) {
+            document.querySelectorAll('.lang').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.lang.' + lang).forEach(el => el.classList.add('active'));
+            document.querySelectorAll('.lang-toggle button').forEach(btn => btn.classList.remove('active'));
+            document.querySelector('.lang-toggle button[onclick*="' + lang + '"]').classList.add('active');
+            document.documentElement.lang = lang === 'fr' ? 'fr' : 'en';
+        }
+    </script>
+</body>
+</html>
